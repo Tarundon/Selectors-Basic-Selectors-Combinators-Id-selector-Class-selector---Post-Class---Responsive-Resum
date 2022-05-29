@@ -74,13 +74,12 @@ margin: 5px;
 .personal-details .fa-solid,.fas{
 margin: 5px;
 }
-.skills{
-    /* margin-top: 50px ;
-    margin-bottom: 30px; */
-    
-    padding: 1rem 0.5rem;
-    text-align: center;
-    text-transform: uppercase;
+
+.skills-title{
+font-size: 0.75rem;
+text-align: center;
+text-transform: uppercase;
+padding: 1rem 0.5rem;
 }
 .skill-container .skill-name{
     padding-bottom: 0.5rem;
