@@ -75,22 +75,22 @@ margin: 5px;
 margin: 5px;
 }
 
-.skills-title{
+.skills-container .skills-title{
 font-size: 0.75rem;
 text-align: center;
 text-transform: uppercase;
 padding: 1rem 0.5rem;
 }
-.skill-container .skill-name{
+.skills-container .skill-item .skill-name{
     padding-bottom: 0.5rem;
     text-align: left;
     font-size: 0.65rem;
     font-weight: 0.65rem;
 }
-.skill-container .progress-bar{
+/* .skills-container .skill-item .progress-bar{
     border: 1px white solid;
     height: 4px;
-}
+} */
  progress::-webkit-progress-value { 
      background: rgb(13, 13, 13);
  } 
