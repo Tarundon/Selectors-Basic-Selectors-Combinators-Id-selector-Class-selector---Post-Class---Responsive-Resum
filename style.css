@@ -5,5 +5,130 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    width: 90%;
+    min-height: 1000px;
+    margin: 20px auto;
+}
+.left-section{
+    grid-column: span 1;
+    background-color: #69d1da;
+}
+.right-section{
+    grid-column: span 1/ span 2;
+    background-color: #F3EDE5;
+    /* width: 100%; */
+}
+.left-content{
+    padding: 1rem;  /*1 rem = 16px  */
+    
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700 ;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+   padding: 1rem;
+}
+ li.icon{
+display: inline-block;
+padding: 5px;
+margin: 5px;
+
+}
+.icon img{
+    width: 25px;  
+}
+.contact{
+    font-size: 0.75rem;
+    font-weight: 500;
+    position: relative;
+    left: 0%;
+   
+    margin: 5px;
+   padding: 0.5rem;
+} 
+.personal-details .fa-solid,.fas{
+margin: 5px;
+}
+.skills{
+    /* margin-top: 50px ;
+    margin-bottom: 30px; */
+    
+    padding: 1rem 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.skill-container .skill-name{
+    padding-bottom: 0.5rem;
+    text-align: left;
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+}
+.skill-container .progress-bar{
+    border: 1px white solid;
+    height: 4px;
+}
+ progress::-webkit-progress-value { 
+     background: rgb(13, 13, 13);
+ } 
+ .progress-bar{
+     border: 1px white solid;
+     border-radius: 2px;
+     height : 4px;
+     background-color: black;
+ }
+ .bar-1{
+     width: 95%;
+ }
+ .bar-2{
+    width: 85%;
+}
+.bar-3{
+    width: 65%;
+}
+.bar-4{
+    width: 50%;
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 674px){
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 
 /* Write CSS code below */
